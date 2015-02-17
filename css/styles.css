@@ -2,10 +2,37 @@
   list-style-type: none;
 }*/
 
+
+body {
+ background-color: #eee;
+}
+
 .active-task {
   color: #0088cc;
 }
 .active-task:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+#paper {
+  background: url("../img/paper.jpg");
+  width: 600px;
+  height: 860px;
+  background-repeat: no-repeat;
+  margin: auto;
+  text-align: center;
+
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+#paper h1 {
+  font-size: 60px;
+  padding-top: 40px;
+}
+
+#paper li {
+  font-size: 40px;
+  text-align: left;
+  margin-left: 115px;
 }
